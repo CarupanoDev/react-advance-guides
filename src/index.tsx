@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {PointerEvent} from "./mouse-and-pointer-events/BlurExample";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <PointerEvent/>
   </React.StrictMode>,
   document.getElementById('root')
 );
