@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import {PointerEvent} from "./mouse-and-pointer-events/BlurExample";
+import MyComponent from "./code-splitting/MyComponent";
 
 ReactDOM.render(
   <React.StrictMode>
-      <PointerEvent/>
+      <MyComponent/>
   </React.StrictMode>,
   document.getElementById('root')
 );
