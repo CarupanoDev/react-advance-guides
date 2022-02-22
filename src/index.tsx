@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from "./context/Context";
+import FocusInput from "./forwarding-refs/FocusInput";
 
 
 ReactDOM.render(
   <React.StrictMode>
-      <App/>
+      <FocusInput/>
   </React.StrictMode>,
   document.getElementById('root')
 );
