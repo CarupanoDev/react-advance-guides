@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import App from "./context/Context";
-import FocusInput from "./forwarding-refs/FocusInput";
+import ClickCounter from "./hoc/ClickCounter";
+import HoverCounter from "./hoc/HoverCounter";
 
 
 ReactDOM.render(
   <React.StrictMode>
-      <FocusInput/>
+      <ClickCounter/>
+      <HoverCounter/>
   </React.StrictMode>,
   document.getElementById('root')
 );
